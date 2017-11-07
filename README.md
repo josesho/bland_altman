@@ -11,23 +11,24 @@ _A Bland–Altman plot ... is a method of data plotting used in analyzing the ag
 ## Usage
 
 - Place `bland_altman.py` in your working directory.
-- In your Python script or Jupyter notebook, run
+- To load the function into your Python script or Jupyter notebook, run
   ```python
   from .bland_altman import bland_altman_plot
   ```
-- Example
-  ```python
-  from .bland_altman import bland_altman_plot
-  import numpy as np
 
-  # Seed the random number generator.
-  # This ensures that the results below are reproducible.
-  np.random.seed(9999)
-  m1 = np.random.random(20)
-  m2 = np.random.random(20)
+## Example
+```python
+from .bland_altman import bland_altman_plot
+import numpy as np
 
-  my_bland_altman_plot = bland_altman_plot(m1, m2)
-  ```
+# Seed the random number generator.
+# This ensures that the results below are reproducible.
+np.random.seed(9999)
+m1 = np.random.random(20)
+m2 = np.random.random(20)
 
-  This should produce the following image.
-  ![A Bland-Altman plot](https://github.com/josesho/bland_altman/raw/master/bland-altman-plot.png)
+my_bland_altman_plot = bland_altman_plot(m1, m2)
+```
+
+This should produce the following image.
+![A Bland-Altman plot](https://github.com/josesho/bland_altman/raw/master/bland-altman-plot.png)
