@@ -1,5 +1,5 @@
 # Producing Bland-Altman plots in Python
-Requires matplotlib (2.1.0) and numpy (1.12.1).
+Requires [matplotlib](https://github.com/matplotlib/matplotlib) (2.1.0) and [numpy](https://www.scipy.org/scipylib/download.html) (1.12.1).
 
 ## Introduction
 
