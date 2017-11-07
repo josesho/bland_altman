@@ -3,7 +3,7 @@ Requires matplotlib (2.1.0) and numpy (1.12.1).
 
 ## Introduction
 
-From the [https://en.wikipedia.org/wiki/Bland%E2%80%93Altman_plot](Wikipedia article):
+From the [Wikipedia article](https://en.wikipedia.org/wiki/Bland%E2%80%93Altman_plot):
 _A Bland–Altman plot ... is a method of data plotting used in analyzing the agreement between two different assays._
 
 [Bland and Altman et al.](https://www-users.york.ac.uk/~mb55/meas/ba.pdf) has been cited over 20,000 times.
