@@ -31,4 +31,5 @@ my_bland_altman_plot = bland_altman_plot(m1, m2)
 ```
 
 This should produce the following image.
+
 ![A Bland-Altman plot](https://github.com/josesho/bland_altman/raw/master/bland-altman-plot.png)
